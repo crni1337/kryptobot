@@ -2219,7 +2219,7 @@ async function starts() {
                                         await limitAdd(sender)
 					break
                                 case 'clearall':
-					if (!isOwner) return reply('Kamu siapa?')
+					if (!isOwner) return reply('Quem é você?')
 					anu = await client.chats.all()
 					client.setMaxListeners(25)
 					for (let _ of anu) {
