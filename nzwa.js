@@ -1779,11 +1779,11 @@ async function starts() {
 						if (isNsfw) return reply('fitur sudah aktif')
 						nsfw.push(from)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ SUCESSO ❭ recurso nsfw foi ativado neste grupo ✅')
+						reply('❬ SUCESSO ❭ O recurso nsfw foi ativado neste grupo ✅')
 					} else if (Number(args[0]) === 0) {
 						nsfw.splice(from, 1)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ SUCESSO ❭ recurso nsfw foi desativado neste grupo ❌')
+						reply('❬ SUCESSO ❭ O recurso nsfw foi desativado neste grupo ❌')
 					} else {
 						reply('ketik 1 untuk mengaktifkan, 0 untuk menonaktifkan fitur')
 					}
