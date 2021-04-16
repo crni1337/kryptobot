@@ -1659,11 +1659,11 @@ async function starts() {
 						if (isWelkom) return reply('fitur sudah aktif')
 						welkom.push(from)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
-						reply('❬ SUCCSESS ❭ mengaktifkan fitur welcome di group ini')
+						reply('❬ SUCESSO ❭ O recurso de boas-vindas foi ativado neste grupo ✅')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, disable)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
-						reply('❬ SUCCSESS ❭ menonaktifkan fitur welcome di group ini')
+						reply('❬ SUCESSO ❭ O recurso de boas-vindas foi desativado neste grupo ❌')
 					} else {
 						reply('ketik 1 untuk mengaktifkan, 0 untuk menonaktifkan fitur')
 					}
