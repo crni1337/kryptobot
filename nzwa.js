@@ -368,10 +368,10 @@ async function starts() {
 
 			mess = {
 				wait: '⌛ Processando ⌛',
-				success: '✔️ Berhasil ✔️',
-                                levelon: '❬ ✔ ❭ *enable leveling*',
-				leveloff: ' ❬ X ❭  *disable leveling*',
-				levelnoton: '❬ X ❭ *leveling not aktif*',
+				success: '✔️ Funciona ✔️',
+                                levelon: '❬ ✔ ❭ *Nivelamento Habilitado*',
+				leveloff: ' ❬ X ❭  *Nivelamento Desabilitado*',
+				levelnoton: '❬ X ❭ *Nivelamento não está ativado*',
 				levelnol: '*LEVEL KAKAK MASIH* 0 °-°',
 				error: {
 					stick: '[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
