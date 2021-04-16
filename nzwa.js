@@ -1779,7 +1779,7 @@ async function starts() {
 						if (isNsfw) return reply('fitur sudah aktif')
 						nsfw.push(from)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ SUCCSESS ❭ mengaktifkan fitur nsfw di group ini')
+						reply('❬ SUCESSO ❭ recurso nsfw foi ativado neste grupo ✅')
 					} else if (Number(args[0]) === 0) {
 						nsfw.splice(from, 1)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
