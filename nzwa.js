@@ -374,8 +374,8 @@ async function starts() {
 				levelnoton: '❬ X ❭ *leveling not aktif*',
 				levelnol: '*LEVEL KAKAK MASIH* 0 °-°',
 				error: {
-					stick: '[❗] Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
-					Iv: '❌ Link tidak valid ❌'
+					stick: '[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+					Iv: '❌ Link inválido ❌'
 				},
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
