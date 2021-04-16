@@ -1783,7 +1783,7 @@ async function starts() {
 					} else if (Number(args[0]) === 0) {
 						nsfw.splice(from, 1)
 						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ SUCCSESS ❭ menonaktifkan fitur nsfw di group ini')
+						reply('❬ SUCESSO ❭ recurso nsfw foi desativado neste grupo ❌')
 					} else {
 						reply('ketik 1 untuk mengaktifkan, 0 untuk menonaktifkan fitur')
 					}
