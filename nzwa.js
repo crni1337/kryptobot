@@ -1656,7 +1656,7 @@ async function starts() {
 					if (!isGroupAdmins) return reply(mess.only.Badmin)
 					if (args.length < 1) return reply('ketik 1 untuk mengaktifkan')
 					if (Number(args[0]) === 1) {
-						if (isWelkom) return reply('fitur sudah aktif')
+						if (isWelkom) return reply('O recurso está ativo')
 						welkom.push(from)
 						fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
 						reply('❬ SUCESSO ❭ O recurso de boas-vindas foi ativado neste grupo ✅')
