@@ -1950,7 +1950,7 @@ async function starts() {
                                         const latensi = speed() - timestamp
                                         client.updatePresence(from, Presence.composing) 
 				        uptime = process.uptime()
-                                        client.sendMessage(from, `Speed: *${latensi.toFixed(4)} _Second_*\nDevice: *Black Shark 3*\nRAM: *8/128*\nData: *Smartfren*\nJaringan: *4G*\nStatus: *Di Charger*`, text, { quoted: mek})
+                                        client.sendMessage(from, `Velocidade: *${latensi.toFixed(4)} _Second_*\nDispositivo: *Black Shark 3*\nRAM: *8/128*\nDados: *Smartfren*\nRede: *4G*\nStatus: *No Carregador*`, text, { quoted: mek})
                                         break
                                 case 'neonlogo':
                                         var gh = body.slice(9)
